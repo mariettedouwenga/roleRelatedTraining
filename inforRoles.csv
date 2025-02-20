@@ -1,0 +1,39 @@
+﻿Select Role
+BEFI20 - Accountant
+BEFI30 - Payables Administrator
+BEFI40 - Receivables Administrator
+BEFI70 - FAM Accountant
+BEFL10 - Fleet Engineer
+BEFL20 - Fleet Analyst
+BEIT10 - ERP Application Manager Lite
+BEPR10 - Project Administrator
+BEPR20 - Contract Manager
+BEPR30 - Department Responsible Engineer
+BEPR40 - Department Backoffice Clerk
+BEPU10 - Buyer
+BEPU30 - Employee
+BEPU40 -Purchase Administrator
+BEQM10 - Quality Inspector
+BEWH10 - Receiving Clerk
+BEWH20 - Shipping Clerk
+BKFI20 - Financial Controller
+BKFI40 - Period End Manager
+BKFI50 - Super Period End Manager
+BKFL10 - Fleet Manager
+BKIT10 - ERP Application Manager
+BKMD10 - Master Data - Business Partners
+BKMD20 - Master Data - Items
+BKMD30 - Master Data - Projects
+BKMD40 - Master Data - Employees
+BKMD41 - Master Data - Employees - People  (Timeway)
+BKPR10 - Project Manager
+BKPR20 - Project Controller
+BKPR30 - Fleet Controller
+BKPR40 - Department Controller
+BKPR50 - Department Manager
+BKPU10 - Purchase Manager
+BKWH10 - Warehouse Manager
+BSPR90 - Auditor - READ-ONLY
+BSPR99 - Special User - All Business Roles
+EUWH10 - Receiving Clerk
+PO Approver Only
