@@ -1,20 +1,15 @@
 # roleRelatedTraining
-Goal of role related training a specific application role (Infor):
-1. Choose the role.
-    Output the training related to the chosen role.
-    Output available dates for training topics.
+The goal of Role Related training is to ensure that every user receives training on the system that is specific to their application role (Infor).
 
-2. Register for training by selecting a date
-    Output show availablity
-    Output add person to a list for the training topic and the date chosen
+The user will select their role in the system after which the following information will be provide to the user.
+1. Training topics related to the chosen role.
+2. The availibility of the training topic.
+3. The user can also register for the training topic.
 
 
-In this repository you will find:
-Data files:
+**Data files:**
 Roles
-Dates
-*Training registrations and availability
+Training registrations and availability
 
-*Not available yet
 
 
