@@ -4,8 +4,6 @@ import streamlit as st
 import markdown
 
 header = st.container()
-dataset = st.container()
-trainingOutput = st.container()
 
 # load excel with its path 
 trainingMatrix = openpyxl.load_workbook("TrainingMatrix.xlsx") 
