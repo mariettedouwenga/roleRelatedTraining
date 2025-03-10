@@ -2,5 +2,6 @@ Markdown==3.7
 markdown-it-py==3.0.0
 pandas==2.2.3
 streamlit==1.42.0
-openpyxl
+openpyxl==3.0.14
+numpy
 
