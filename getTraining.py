@@ -35,12 +35,15 @@ with header:
             
             if cell_obj.value == "x":
                 if role_name.value == role:                                                         
-                                                
-                    st.write(f"**{training_name.value}**")
-                    st.text("Description: " + "\n" + training_description.value)
-                    st.link_button("Find training dates", "https://boskalis.sharepoint.com/sites/D001418/_layouts/15/Events.aspx?Page=%2Fsites%2FD001418%2FSitePages%2FTraining-Dates.aspx&InstanceId=5fced5f5-7ebc-42a2-87bf-cdc70e4868ea&Category=Training&StartDate=2025-03-07&EndDate=2025-12-31&AudienceTarget=false")
-                    st.divider()
-    
+                    if training_description.value != "This training is not available yet":
+                                            
+                        st.write(f"**{training_name.value}**")
+                        st.text("Description: " + "\n" + training_description.value)
+                        st.link_button("Find training dates", "https://boskalis.sharepoint.com/sites/D001418/_layouts/15/Events.aspx?Page=%2Fsites%2FD001418%2FSitePages%2FTraining-Dates.aspx&InstanceId=5fced5f5-7ebc-42a2-87bf-cdc70e4868ea&Category=Training&StartDate=2025-03-07&EndDate=2025-12-31&AudienceTarget=false")
+                        st.divider()
+                    else:
+                        st.write("")                   
+                        
 
                
 
